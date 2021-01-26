@@ -5,9 +5,7 @@ export const globalStore = createStore({
   state: {
     searches: []
   },
-  getters: {
-    
-  },
+  getters: {},
   mutations: {
     fetchSearches(state, payload) {
       state.searches = payload
